@@ -2090,9 +2090,9 @@
   "version" "1.1.1"
 
 "electron-to-chromium@^1.4.530":
-  "integrity" "sha512-piIR0QFdIGKmOJTSNg5AwxZRNWQSXlRYycqDB9Srstx4lip8KpcmRxVP6zuFWExWziHYZpJ0acX7TxqX95KBpg=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.532.tgz"
-  "version" "1.4.532"
+  "integrity" "sha512-ikY7wAMtMt3jTnHsHG0YLl4MKJiKz2tgidenGSNgwUX2StBLNZ8VCxflD9tZK/ceTs4j8gDC9+6LQQ6iGkK04g=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.534.tgz"
+  "version" "1.4.534"
 
 "elegant-spinner@^1.0.1":
   "integrity" "sha512-B+ZM+RXvRqQaAmkMlO/oSe5nMUOaUnyfGYCEHoR8wrXsZR2mA0XVibsxV1bvTwxdRWah1PkQqso2EzhILGHtEQ=="
