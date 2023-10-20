@@ -37,7 +37,7 @@ const Hero = () => {
     <div className="hero-banner-four text-center position-relative" id="s1">
       <div className="container">
         <img
-          src="/images/media/img_26.jpg"
+          src="/images/media/justiconzing.png"
           alt=""
           className="lazy-img avatar-img m-auto rounded-circle"
           data-aos="fade-up"
@@ -47,7 +47,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Hi, I’m <span className="fw-500">Rashed</span>
+          Hi, We are <span className="fw-500">Zing Education Technology</span>
         </div>
         <div className="row">
           <div
@@ -56,24 +56,26 @@ const Hero = () => {
             data-aos-delay="300"
           >
             <h1 className="hero-heading fw-500 font-recoleta tx-dark mb-65 lg-mb-40">
-              Building digital products, brands &amp; expereince
+            Coding for kids Interaktif STEAM
             </h1>
+            <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
+            Dengan Konsep Society 5.0
+            </p>
           </div>
           <div
             className="col-lg-6 col-md-8 m-auto "
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-              Janu is your online team mangement tool that easy and prompt
-            </p>
+            {/* <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
+            Dengan Konsep Society 5.0
+            </p> */}
           </div>
         </div>
         <a
           href="#s5"
           className="btn-eight"
-          data-aos="fade-up"
-          data-aos-delay="500"
+
         >
           Contact Me
         </a>
@@ -84,7 +86,7 @@ const Hero = () => {
         <div className="r-shape-one position-absolute" />
         <div className="r-shape-two position-absolute rounded-circle" />
         <img
-          src="/images/media/img_27.jpg"
+          src="/images/media/foto21.png"
           alt="media"
           className="lazy-img main-img"
         />
@@ -95,7 +97,7 @@ const Hero = () => {
         <div className="r-shape-three position-absolute rounded-circle" />
         <div className="r-shape-four position-absolute rounded-circle" />
         <img
-          src="/images/media/img_28.jpg"
+          src="/images/media/foto22.png"
           alt="media"
           className="lazy-img main-img"
         />

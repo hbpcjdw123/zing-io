@@ -17,7 +17,7 @@ import Footer from "../../components/home-page/home-11/Footer";
 const SeoAgency = () => {
   return (
     <>
-      <Seo pageTitle="Seo Agency" />
+      <Seo pageTitle="Zing Edutech:" />
 
       {/* <!-- 
         =============================================

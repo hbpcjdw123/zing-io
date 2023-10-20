@@ -32,15 +32,15 @@ const Header = () => {
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
               <Image
-                src="/images/logo/logo_04.png"
+                src="/images/logo/izinz.png"
                 alt="logo"
-                width={95}
-                height={30}
+                width={200}
+                height={50}
               />
             </Link>
           </div>
           <div className="right-widget d-flex align-items-center ms-auto ms-lg-0 order-lg-3">
-            <button
+            {/* <button
               className="sidebar-nav-button d-none d-lg-block"
               type="button"
               data-bs-toggle="offcanvas"
@@ -48,7 +48,7 @@ const Header = () => {
               aria-controls="offcanvasRight"
             >
               <span></span>
-            </button>
+            </button> */}
           </div>
           {/* /.right-widget */}
           <PortfolioMenu />

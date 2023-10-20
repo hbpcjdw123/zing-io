@@ -10,9 +10,10 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Increase your web traffic with our expert",
+    heading: "Coding for kids Interaktif STEAM dengan Konsep Society 5.0",
+    // eading: "Kreatifitas melalui Coding Interaktif STEAM dengan Dukungan AI",
     subheading:
-      "Agency work with top rated talented people provide qulaity services.",
+      "By Zing Education Technology",
     btnText: "Start Now",
   };
 

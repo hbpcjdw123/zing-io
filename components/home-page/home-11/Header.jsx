@@ -32,20 +32,20 @@ const Header = () => {
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
               <Image
-                src="/images/logo/logo_01.png"
+                src="/images/logo/izinz.png"
                 alt="logo"
-                width={95}
-                height={30}
+                width={200}
+                height={50}
               />
             </Link>
           </div>
           <div className="right-widget d-flex align-items-center ms-auto ms-lg-0 order-lg-3">
-            <Link
+            {/* <Link
               href="/login"
               className="login-btn-one fs-17 fw-500 tran3s me-3"
             >
               Login
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="contact-btn-three fs-17 fw-500 tran3s d-none d-lg-block"

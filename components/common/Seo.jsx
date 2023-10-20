@@ -5,7 +5,7 @@ const Seo = ({ pageTitle }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || Jano - Creative Multipurpose React NextJS Template}`}
+          `${pageTitle} Kreativitas Melalui Coding Interaktif STEAM dan Dukungan AI}`}
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>

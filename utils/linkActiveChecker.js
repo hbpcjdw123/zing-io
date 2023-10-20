@@ -10,7 +10,7 @@ export const isActiveParent = (data = [], path) => {
   }
 };
 
-// is active parent childe check
+// is active parent childe checks
 export const isActiveParentChaild = (data = [], path) => {
   if (data?.length !== 0) {
     return data?.some(

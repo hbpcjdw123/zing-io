@@ -2,10 +2,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navItems = [
-  { title: "About me", href: "#s1" },
-  { title: "Services", href: "#s2" },
-  { title: "Portfolio", href: "#s3" },
-  { title: "Skill", href: "#s4" },
+  { title: "Home", href: "#s1" },
+  { title: "Our Program", href: "#s2" },
+  { title: "Event", href: "#s3" },
+  // { title: "Skill", href: "#s4" },
   { title: "Contact", href: "#s5" },
 ];
 

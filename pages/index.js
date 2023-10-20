@@ -1,10 +1,11 @@
 import Wrapper from "../layout/wrapper";
-import Insurance from "./home/insurance";
+import SeoAgency from "./home/seo-agency";
+import PersonalPortfolio from "./home/personal-portfolio";
 
 const MainRoot = () => {
   return (
     <Wrapper>
-      <Insurance />
+      <PersonalPortfolio />
     </Wrapper>
   );
 };
