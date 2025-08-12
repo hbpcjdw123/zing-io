@@ -1,0 +1,35 @@
+name: Teams PR Notification
+
+on:
+  pull_request:
+    types: [opened, reopened, edited]
+
+jobs:
+  notify-teams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send PR notification to Teams via Logic App
+        env:
+          WEBHOOK_URL: ${{ secrets.AZURE_LOGIC_APP_URL }}
+        run: |
+          # Ambil data dari pull request
+          REPO_NAME="${{ github.repository }}"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          PR_URL="${{ github.event.pull_request.html_url }}"
+          PR_AUTHOR="${{ github.event.pull_request.user.login }}"
+
+          # Buat payload JSON untuk Azure Logic Apps
+          PAYLOAD=$(cat << EOF
+          {
+            "repo_name": "$REPO_NAME",
+            "pr_number": "$PR_NUMBER",
+            "pr_title": "$PR_TITLE",
+            "pr_url": "$PR_URL",
+            "pr_author": "$PR_AUTHOR"
+          }
+          EOF
+          )
+
+          # Kirim payload ke Azure Logic Apps menggunakan cURL
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$WEBHOOK_URL"
