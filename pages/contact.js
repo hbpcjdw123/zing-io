@@ -29,6 +29,7 @@ const contact = () => {
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
                   Contact info
                 </div>
+                asdasdasdas
                 <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
               </div>
             </div>
