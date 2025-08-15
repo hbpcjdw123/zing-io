@@ -27,7 +27,7 @@ const contact = () => {
             <div className="col-lg-7 text-center m-auto wow fadeInUp">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
-                  Contact info
+                  Contact info oiwfeqjkhlfweqjkhwefjkh
                 </div>
                 <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
               </div>
