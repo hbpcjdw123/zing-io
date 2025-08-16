@@ -2,7 +2,7 @@ name: Teams PR Notification
 
 on:
   pull_request:
-    types: [opened, closed, reopened]
+    types: [opened]
 
 jobs:
   notify-teams:
