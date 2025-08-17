@@ -18,6 +18,8 @@ jobs:
           PR_TITLE="${{ github.event.pull_request.title }}"
           PR_URL="${{ github.event.pull_request.html_url }}"
           PR_AUTHOR="${{ github.event.pull_request.user.login }}"
+          PR_STATUS="${{ github.event.pull_request.state }}"
+          PR_CHANGED_FILES="${{ github.event.pull_request.changed_files }}"
 
           # Buat payload JSON untuk Azure Logic Apps
           PAYLOAD=$(cat << EOF
@@ -27,6 +29,8 @@ jobs:
             "pr_title": "$PR_TITLE",
             "pr_url": "$PR_URL",
             "pr_author": "$PR_AUTHOR"
+            "pr_status": "$PR_STATUS",
+            "PR_CHANGED_FILES": "$PR_CHANGED_FILES",
           }
           EOF
           )
