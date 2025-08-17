@@ -30,7 +30,7 @@ jobs:
             "pr_url": "$PR_URL",
             "pr_author": "$PR_AUTHOR"
             "pr_status": "$PR_STATUS",
-            "PR_CHANGED_FILES": "$PR_CHANGED_FILES",
+            "pr_changed_files": "$PR_CHANGED_FILES",
           }
           EOF
           )
