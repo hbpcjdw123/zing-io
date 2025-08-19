@@ -12,7 +12,7 @@ export default function Document() {
           name="keywords"
           content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
         />
-
+        wkwkwkkwkw
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
