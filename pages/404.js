@@ -26,7 +26,7 @@ const Pricing = () => {
               <h3>Opps! you’r on the wrong place. terus disini tabha deskripsi</h3>
               <p className="me-xxl-5 ms-xxl-5 pt-15 pb-20">
                 Can not find what you need? Take a moment and do a search below
-                or start from our Homepage.
+                or start from our Homepage. jsjsjsjssj
               </p>
               <Link href="/" className="btn-twentyOne fw-500 tran3s">
                 Back to home
